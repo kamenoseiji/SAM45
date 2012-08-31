@@ -1,0 +1,15 @@
+This github repository contains programs to read a logging data files of NRO 45m SAM45 spectrometer and to output total power variation.
+
+Contents:
+date.R			: R program to handle date and MJD (Modified Julian Day)
+SAM45.R			: R program to read SAM45 logging data files
+SAM45_power.R	: R program to execute plotting the power
+
+Usage:
+1. Download all *.R program files and put them together with logging data files.
+2. Edit 'SAM45_power.R' and set the working directory (where you put the R scripts) in the first line and set the file list in the second line.
+3. Run R
+4. Run the R script as
+    source('SAM45_power.R')
+
+Then, figures appear as PDF files.
